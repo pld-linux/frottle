@@ -1,4 +1,4 @@
-Summary:	Packet Scheduling and QoS for Wireless Networks
+Summary:	Packet scheduling and QoS for wireless networks
 Summary(pl):	Szeregowanie pakietów i QoS dla sieci bezprzewodowych
 Name:		frottle
 Version:	0.2.1
