@@ -1,5 +1,5 @@
 # Customized setings
 
-# Nice level 
+# Nice level
 SERVICE_RUN_NICE_LEVEL="+5"
 
