@@ -1,4 +1,5 @@
 Summary:	Packet Scheduling and QoS for Wireless Networks
+Summary(pl):	Szeregowanie pakietów i QoS dla sieci bezprzewodowych
 Name:		frottle
 Version:	0.2.1
 Release:	1
@@ -24,6 +25,18 @@ future.
 Frottle works by scheduling the traffic of each client, using a master
 node to co-ordinate actions. This eliminates collisions, and prevents
 clients with stronger signals from receiving bandwidth bias.
+
+%description -l pl
+Frottle (Freenet throttle) to projekt z otwartymi ¼ród³ami na licencji
+GNU GPL s³u¿±cy do kontroli ruchu w sieciach bezprzewodowych. Kontrola
+ta eliminuje popularny efekt ukrytego wêz³a nawet w du¿ych rozmiarów
+sieciach bezprzewodowych. Frottle jest aktualnie dostêpne tylko dla
+bramek bezprzewodowych na Linuksie u¿ywaj±cych firewalli na iptables,
+ale s± plany stworzenia w przysz³o¶ci windowsowego klienta.
+
+Frottle dzia³a szereguj±c ruch ka¿dego klienta, u¿ywaj±c g³ównego
+wêz³a do koordynowania akcji. Eliminuje to kolizje i zapobiega
+otrzymywaniu wiêkszego pasma przez klientów z silniejszym sygna³em.
 
 %prep
 %setup -q
